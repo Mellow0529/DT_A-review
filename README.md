@@ -1,4 +1,3 @@
-# DT_A-review
+# dataStructure-Algorithm_Review
 
-
-### For the Hord
+### HARDCORE !
