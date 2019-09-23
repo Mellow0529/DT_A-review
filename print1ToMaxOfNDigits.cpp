@@ -1,3 +1,5 @@
+// 解决最大数字太大超出int / long int / long long int范围： 用字符串表示数字
+// char 和 int之间的类型转换要 + / - '0'
 #include <iostream>
 
 
