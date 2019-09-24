@@ -10,10 +10,10 @@ public:
 	CQueue(void);
 	~CQueue(void);
 
-	// ÔÚ¶ÓÁĞÄ©Î²Ìí¼ÓÒ»¸ö½áµã
+	// åœ¨é˜Ÿåˆ—æœ«å°¾æ·»åŠ ä¸€ä¸ªç»“ç‚¹
 	void appendTail(const Type& node);
 
-	// É¾³ı¶ÓÁĞµÄÍ·½áµã
+	// åˆ é™¤é˜Ÿåˆ—çš„å¤´ç»“ç‚¹
 	Type deleteHead();
 
 private:
@@ -56,7 +56,7 @@ Type CQueue<Type>::deleteHead()
 }
 
 
-// ====================²âÊÔ´úÂë====================
+// ====================æµ‹è¯•ä»£ç ====================
 void Test(char actual, char expected)
 {
 	if (actual == expected)
